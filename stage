@@ -1,0 +1,7 @@
+node('master') {
+	stage('Stage 1') {
+	  sh label: '', script: 'echo This is a sample text file > sample.txt'
+
+	  sh label: '', script: 'type sample.txt'
+		}
+}
