@@ -1,6 +1,6 @@
 - task: ShellScript@2
   inputs:
-    scriptPath:
+    scriptPath: test/test.sh
     #args: '' # Optional
     #disableAutoCwd: false # Optional
     #cwd: '' # Optional
