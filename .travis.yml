@@ -2,7 +2,7 @@ language: c
 sudo: false # only for faster builds
 script:
   - clang -coverage -O0 string.c -o string
-  - ./gtk
+  - ./string
   - gcov string.c
 
 after_success:
