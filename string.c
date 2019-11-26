@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.h>
+
 int my_strcmp(char *strg1, char *strg2);
  
 int main()
