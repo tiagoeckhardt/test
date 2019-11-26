@@ -1,9 +1,9 @@
 language: c
 sudo: false # only for faster builds
 script:
-  - clang -coverage -O0 gtk.c -o gtk
+  - clang -coverage -O0 string.c -o string
   - ./gtk
-  - gcov gtk.c
+  - gcov string.c
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
